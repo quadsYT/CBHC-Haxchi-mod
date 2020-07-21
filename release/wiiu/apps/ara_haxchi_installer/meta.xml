@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Haxchi Installer Mod</name>
+  <coder>Flump : Fix94</coder>
+  <version>2.5u2</version>
+  <url>https://github.com/Flumpster</url>
+  <release_date>20180118200000</release_date>
+  <short_description>Haxchi Installer</short_description>
+  <long_description>This will install Haxchi CFW onto your system. 
+  
+This provides you with signature patches to run unsigned code and to make your console region free.
+
+It requires a legit bought VC game to install onto. Please check wiiu.guide for a list of compatible games.
+  </long_description>
+  <category>tool</category>
+</app>

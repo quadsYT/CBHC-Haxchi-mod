@@ -1,0 +1,20 @@
+
+#ifndef _GLOBAL_H_
+#define _GLOBAL_H_
+
+#define LAUNCH_SYSMENU 0
+#define LAUNCH_MOCHA 1
+#define LAUNCH_CFW_IMG 2
+#define LAUNCH_HBL 3
+#define LAUNCH_APPSTORE 4
+#define LAUNCH_SDCAFIINE 5
+#define LAUNCH_HIDTOVPAD 6
+#define LAUNCH_FTP 7
+#define LAUNCH_WUP 8
+#define LAUNCH_SWAPDRC 9
+#define LAUNCH_TCPGECKO 10
+#define LAUNCH_CUSTOM 11
+#define LAUNCH_VWII_SYSMENU 12
+#define LAUNCH_VWII_HBC 13
+
+#endif

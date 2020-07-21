@@ -1,0 +1,97 @@
+Archive member included to satisfy reference by file (symbol)
+
+e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a(crtresxgpr.o)
+                              entry.o (_restgpr_15_x)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 entry.o
+ .data          0x00000000        0x0 entry.o
+ .bss           0x00000000        0x0 entry.o
+ .comment       0x00000000       0x23 entry.o
+ .data          0x00000000        0x0 crt0.o
+ .bss           0x00000000        0x0 crt0.o
+ .text          0x00000000        0x0 kernel_hooks.o
+ .data          0x00000000        0x0 kernel_hooks.o
+ .bss           0x00000000        0x0 kernel_hooks.o
+ .data          0x00000000        0x0 e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a(crtresxgpr.o)
+ .bss           0x00000000        0x0 e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a(crtresxgpr.o)
+ .eh_frame      0x00000000       0x7c e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a(crtresxgpr.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD entry.o
+LOAD crt0.o
+LOAD kernel_hooks.o
+LOAD e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a
+START GROUP
+LOAD e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0/../../../../powerpc-eabi/lib\libsysbase.a
+LOAD e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0/../../../../powerpc-eabi/lib\libc.a
+END GROUP
+LOAD e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a
+                0x00800000                . = 0x800000
+
+.text           0x00800000      0x8f4
+ *(.kernel_code*)
+ .kernel_code   0x00800000       0x7c kernel_hooks.o
+                0x00800000                SaveAndResetDataBATs_And_SRs_hook
+                0x00800048                my_PrepareTitle_hook
+                0x00800070                SC0x25_KernelCopyData
+ *(.text*)
+ .text.LiWaitOneChunk
+                0x0080007c      0x2f8 entry.o
+ .text.KernelCopyData.constprop.0
+                0x00800374      0x170 entry.o
+ .text.my_PrepareTitle
+                0x008004e4       0xd4 entry.o
+                0x008004e4                my_PrepareTitle
+ .text._main    0x008005b8      0x2b0 entry.o
+                0x008005b8                _main
+ .text          0x00800868       0x34 crt0.o
+                0x00800868                _start
+ .text          0x0080089c       0x58 e:/apps/devkitpro/devkitppc/bin/../lib/gcc/powerpc-eabi/6.2.0\libgcc.a(crtresxgpr.o)
+                0x0080089c                _restgpr_14_x
+                0x008008a0                _restgpr_15_x
+                0x008008a4                _restgpr_16_x
+                0x008008a8                _restgpr_17_x
+                0x008008ac                _restgpr_18_x
+                0x008008b0                _restgpr_19_x
+                0x008008b4                _restgpr_20_x
+                0x008008b8                _restgpr_21_x
+                0x008008bc                _restgpr_22_x
+                0x008008c0                _restgpr_23_x
+                0x008008c4                _restgpr_24_x
+                0x008008c8                _restgpr_25_x
+                0x008008cc                _restgpr_26_x
+                0x008008d0                _restgpr_27_x
+                0x008008d4                _restgpr_28_x
+                0x008008d8                _restgpr_29_x
+                0x008008dc                _restgpr_30_x
+                0x008008e0                _restgpr_31_x
+ *(.kernel_code*)
+
+.data           0x008008f4       0xec
+ *(.rodata*)
+ .rodata._main.str1.1
+                0x008008f4       0xda entry.o
+ *(.data*)
+ *(.bss*)
+ *fill*         0x008009ce        0x2 
+ .bss.DCFlushRange
+                0x008009d0        0x4 entry.o
+ .bss.DCInvalidateRange
+                0x008009d4        0x4 entry.o
+ .bss.ICInvalidateRange
+                0x008009d8        0x4 entry.o
+ .bss.hook_LiWaitOneChunk
+                0x008009dc        0x4 entry.o
+
+/DISCARD/
+ *(*)
+                0x00000001                ASSERT (((SIZEOF (.text) + SIZEOF (.data)) <= 0x1300), Memory overlapping with main elf.)
+OUTPUT(../sd_loader_dbg.elf elf32-powerpc)

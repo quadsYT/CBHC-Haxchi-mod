@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>CBHC Installer Mod</name>
+  <coder>Flump : Fix94</coder>
+  <version>1.6</version>
+  <url>https://github.com/Flumpster</url>
+  <release_date>20180118200000</release_date>
+  <short_description>ColdBoot Haxchi Installer</short_description>
+  <long_description>Converts Haxchi into an Autoboot solution. Boots you directly into CFW on startup or to an app you specify in settings.
+
+ONLY USE THIS IF YOU ARE WILLING TO TAKE A RISK OF BRICKING YOUR CONSOLE.
+Don't format the WiiU.
+Don't delete user account used to buy the game for exploit.
+Don't reinstall the same DS game used for exploit.
+Don't install Haxchi over CBHC.
+  </long_description>
+  <category>tool</category>
+</app>

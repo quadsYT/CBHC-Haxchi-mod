@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Custom elf for CBHC</name>
+  <coder>Flump</coder>
+  <version>1.1</version>
+  <url>https://github.com/Flumpster</url>
+  <release_date>20180125200000</release_date>
+  <short_description>Launches Custom .elf File</short_description>
+  <long_description>This will allow you to launch any Homebrew app that is not in the CBHC boot list.
+
+Instructions:
+Place any Homebrew .elf file in the /wiiu/apps/custom/ folder
+and rename it to custom.elf
+
+Either boot to it by pressing DOWN on the DPAD, select it from
+main CBHC menu or set it to AutoBoot..
+  </long_description>
+  <category>tool</category>
+</app>
