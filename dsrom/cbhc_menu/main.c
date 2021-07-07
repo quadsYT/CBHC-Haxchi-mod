@@ -34,7 +34,7 @@ static unsigned int getButtonsDown(unsigned int padscore_handle, unsigned int vp
 #define SD_MOCHA_PATH "/vol/external01/wiiu/apps/mocha/mocha.elf"
 #define SD_FTP_PATH "/vol/external01/wiiu/apps/fpiiu-cbhc/ftpiiu.elf"
 #define SD_SDCAFIINE_PATH "/vol/external01/wiiu/apps/SDcafiine/sdcafiine.elf"
-#define SD_HIDTOVPAD_PATH "/vol/external01/wiiu/apps/hidtovpad/hidtovpad.elf"
+#define SD_HIDTOVPAD_PATH "/storage_mlc/sys/homebrewnand/hidtovpad.elf"
 #define SD_APPSTORE_PATH "/vol/external01/wiiu/apps/appstore/hbas.elf"
 #define SD_WUP_PATH "/vol/external01/wiiu/apps/wup_installer_gx2/wup_installer_gx2.elf"
 #define SD_SWAPDRC_PATH "/vol/external01/wiiu/apps/swapdrc/swapdrc.elf"
